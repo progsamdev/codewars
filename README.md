@@ -1,4 +1,4 @@
-# CodeWars Golang Solutions
+# CodeWars Golang
 
 This repository contains my Golang solutions for problems from [CodeWars](https://www.codewars.com).
 
