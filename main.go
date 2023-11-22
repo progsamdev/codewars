@@ -1,14 +1,11 @@
 package main
 
 import (
-	"codewars/digitalroot"
-	"codewars/firstnonrepeating"
+	"codewars/maximumsubarraysum"
 	"fmt"
 )
 
 func main() {
-	dr := digitalroot.DigitalRoot(132189)
-	fmt.Printf("Sum of digits: %d\n", dr)
-	fr := firstnonrepeating.FirstNonRepeating("Go hang a salami, I'm a lasagna hog!")
-	fmt.Printf("First non repeting letter: %s\n", fr)
+	r := maximumsubarraysum.MaximumSubarraySum([]int{-2, -1, -3, -4, -1, -2, -1, -5, -4})
+	fmt.Println("Maximum Subarray Sum: ", r)
 }
